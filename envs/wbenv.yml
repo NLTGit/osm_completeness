@@ -1,7 +1,7 @@
-name: binder
+name: wbenv
 channels:
-  - anaconda
   - conda-forge
+  - anaconda
   - defaults
 dependencies:
   - affine=2.3.0=py_0
@@ -13,9 +13,10 @@ dependencies:
   - bqplot=0.12.6=pyh8c360ce_0
   - branca=0.3.1=py_0
   - bzip2=1.0.8=hfa6e2cd_2
-  - ca-certificates=2020.4.5.1=hecc5488_0
+  - ca-certificates=2020.6.20=hecda079_0
   - cachetools=3.1.1=py_0
-  - certifi=2020.4.5.1=py38h32f6830_0
+  - cartopy=0.17.0=py38h8bb7414_1012
+  - certifi=2020.6.20=py38h32f6830_0
   - cffi=1.14.0=py38ha419a9e_0
   - cfitsio=3.470=hfa6e2cd_2
   - chardet=3.0.4=py38h32f6830_1006
@@ -123,15 +124,18 @@ dependencies:
   - notebook=6.0.3=py38_0
   - numpy=1.18.1=py38h93ca92e_0
   - numpy-base=1.18.1=py38hc3f5095_1
+  - olefile=0.46=py_0
   - openjpeg=2.3.1=h57dd2e7_3
-  - openssl=1.1.1g=he774522_0
+  - openssl=1.1.1g=he774522_1
   - osmnx=0.12=pyh9f0ad1d_0
+  - owslib=0.20.0=py_0
   - pandas=1.0.3=py38h47e9c7a_0
   - pandoc=2.2.3.2=0
   - pandocfilters=1.4.2=py38_1
   - parso=0.6.2=py_0
   - pcre=8.44=h6538335_0
   - pickleshare=0.7.5=py38_1000
+  - pillow=7.2.0=py38hcc1f983_0
   - pip=20.0.2=py38_1
   - poppler=0.67.0=h1707e21_8
   - poppler-data=0.4.9=1
@@ -144,7 +148,9 @@ dependencies:
   - pyasn1=0.4.8=py_0
   - pyasn1-modules=0.2.7=py_0
   - pycparser=2.20=py_0
+  - pyepsg=0.4.0=py_0
   - pygments=2.6.1=py_0
+  - pykdtree=1.3.1=py38h4b8e87e_1003
   - pyopenssl=19.1.0=py_1
   - pyparsing=2.4.6=py_0
   - pyproj=2.6.0=py38hff69d4a_0
@@ -158,6 +164,7 @@ dependencies:
   - pytz=2019.3=py_0
   - pywin32=227=py38he774522_1
   - pywinpty=0.5.7=py38_0
+  - pyyaml=5.3.1=py38h9de7a3e_0
   - pyzmq=18.1.1=py38ha925a31_0
   - qt=5.9.7=h506e8af_3
   - rasterio=1.1.3=py38h2617b1b_0
@@ -199,9 +206,10 @@ dependencies:
   - xarray=0.15.1=py_0
   - xerces-c=3.2.2=h6538335_1004
   - xz=5.2.5=h2fa13f4_0
+  - yaml=0.2.5=he774522_0
   - zeromq=4.3.1=h33f27b4_3
   - zipp=2.2.0=py_0
   - zlib=1.2.11=h2fa13f4_1006
   - zstd=1.4.4=hd8a0e53_2
-prefix: C:\Users\Corey\Anaconda3\envs\binder
+prefix: C:\Users\Corey\Anaconda3\envs\wbenv
 
